@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="89fe929eed5945fd82ced4550fcdf8c5" Name="Diagram1">
+        <EntityTypeShape EntityType="TechnoServiceModel.Comment" Width="1.5" PointX="9" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechnoServiceModel.Request" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechnoServiceModel.Role" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechnoServiceModel.User" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="TechnoServiceModel.FK__Comments__Reques__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="TechnoServiceModel.FK__Comments__Techni__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="TechnoServiceModel.FK__Requests__Client__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="TechnoServiceModel.FK__Requests__Techni__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="TechnoServiceModel.FK__Users__RoleU__52593CB8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

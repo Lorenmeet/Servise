@@ -1,0 +1,35 @@
+﻿<Window x:Class="Servise.View.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Servise.View"
+        mc:Ignorable="d"
+        Title="Edit" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" >
+            <TextBox x:Name="tbType"></TextBox>
+            <TextBox x:Name="tbСlientName"></TextBox>
+            <TextBox x:Name="tbStartDate"></TextBox>
+            <TextBox x:Name="tbEndDate"></TextBox>
+            <TextBox x:Name="tbStatus"></TextBox>
+            <TextBox x:Name="tbTecno"></TextBox>
+            <TextBlock >Комменатрий</TextBlock>
+            <TextBox x:Name="CommentTec"></TextBox>
+            <Button x:Name="InProcess" VerticalAlignment="Bottom" Click="InProcess_Click">В процессе</Button>
+            <Button x:Name="TheEnd" VerticalAlignment="Bottom" Click="TheEnd_Click">Завершить</Button>
+           
+        </StackPanel>
+    </Grid>
+</Window>
